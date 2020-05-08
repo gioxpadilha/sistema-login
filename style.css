@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif,monospace;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color:#a39e90;
+        
+        
+    }
+
+    #titulo {
+        float: left;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10vw;
+    }
+
+    #titulo h2 {
+        float: left;
+        width: 82%;
+        margin-left: 10%;
+        margin-top: 2vw;
+        text-align: center;
+        font-size: 4.5vw;
+        color:black;
+    }
+
+    
+    
+    #form legend {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 4vw;
+        text-align: center;
+        color: black;
+        
+    }
+
+    #form input {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 3.5vw;
+        text-align: center;
+        color:black;
+        background-color:white;
+        border-radius: 0.5vw;
+    }
+    #lista {
+        float:left;
+        color:black;
+        font-size: 3.6vw;
+        margin-left: 25%;
+        text-align: center;
+        text-decoration: overline white;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    body {
+        background-color:#90a3a3;
+    }
+
+    #titulo {
+        float: left;
+        width: 18%;
+        margin-left: 41%;
+        margin-top: 1.5vw;
+    }
+    
+    #titulo h2 {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 2vw;
+        text-align:center;
+        font-size:2.5vw;
+        color: black;
+    }
+    
+    
+    #form legend {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 2vw;
+        text-align: center;
+        color: black;
+    }
+    
+    #form input {
+        float: left;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 1vw;
+        font-size: 2.2vw;
+        text-align: center;
+        color:black;
+        background-color:white;
+        border-radius: 0.5vw;
+    }
+    #lista {
+        float:left;
+        color:black;
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-left: 36%;
+        text-align: center;
+        text-decoration: overline white;
+    }
+
+    #cadastro {
+        color: black;
+        float:left;
+        margin-top: 3vw;
+        width: 50%;
+    }
+}
